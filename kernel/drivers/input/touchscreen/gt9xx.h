@@ -70,11 +70,12 @@ extern u16 total_len;
 #define GTP_CHANGE_X2Y        1
 #define GTP_ESD_PROTECT       0
 #define GTP_CREATE_WR_NODE    1
-#define GTP_ICS_SLOT_REPORT   0
+//#define GTP_ICS_SLOT_REPORT   0
+#define GTP_ICS_SLOT_REPORT   1
 
 #define GUP_USE_HEADER_FILE   0
 
-#define GTP_DEBUG_ON          0
+#define GTP_DEBUG_ON          1
 #define GTP_DEBUG_ARRAY_ON    0
 #define GTP_DEBUG_FUNC_ON     0
 
