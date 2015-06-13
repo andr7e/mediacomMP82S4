@@ -2179,7 +2179,7 @@ static int rk616_codec_power_up(int type)
 		#endif
 		rk616->is_playback_powerup = true;
 		
-		rk616_set_playback_path (codec, rk616->playback_path);
+		rk616_set_playback_path (codec, SPK_HP);
 	} 
 	else if (type == RK616_CODEC_CAPTURE) 
 	{
